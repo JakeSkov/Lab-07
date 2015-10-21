@@ -67,7 +67,7 @@ public class Lab02_PlayerControlPrediction : NetworkBehaviour
         SyncState();
     }
 
-    PlayerState Move(PlayerState prev, KeyCode newKey)
+    PlayerState Move(PlayerState previous, KeyCode newKey)
     {
         float deltaX = 0, deltaY = 0, deltaZ = 0;
         float deltaRotationY = 0;
